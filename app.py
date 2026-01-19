@@ -29,7 +29,7 @@ st.caption(f"記録ユーザー: {user_id}")
 
 # --- 3. カメラ撮影 ---
 # facing="environment" を追加して、外カメラを優先にします
-uploaded_file = st.camera_input("食事を撮影してください"
+uploaded_file = st.camera_input("食事を撮影してください")
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
